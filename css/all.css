@@ -119,3 +119,50 @@ table {
     background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/icon-search.svg');
 
 }
+
+.content{
+    align-items: center; 
+    width: 1110px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 82px;
+}
+
+
+.blog{
+    display: flex;
+    margin-bottom: 60px;
+}
+.blog-content{
+    margin-left: 30px;
+    /* border: 1px solid black;*/
+    flex-direction: column;
+}
+.blog-content h2{
+    font: normal normal normal 32px/63px Noto Sans;
+    color: #650300;
+    
+}
+.title{
+    font: normal normal medium 20px/30px Roboto;
+}
+.subtitle{
+    font: normal normal normal 20px/30px Noto Sans;
+    margin-bottom: 24px;
+    display: block;
+}
+.blog-content p{
+    font: normal normal normal 20px/30px Noto Sans;
+    margin-bottom: 30px;
+}
+.blog-content a{
+    font: normal normal normal 20px/30px Noto Sans;
+    text-decoration: none;
+    /* display: block; */
+    font-size: 36px;
+    color: #650300;
+    font-weight: bold;
+    /* margin-left: 24px; */
+    /* border: 1px solid black; */
+    float: right;
+}
