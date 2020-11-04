@@ -80,24 +80,42 @@ table {
 }
 
 
-
 .secHeader{
-    
     display: flex;
     background-color: #650300;
-
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-around;
+    margin-top: -25px;
+}
+.secMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .secMenu li{
     display: flex;
-
 }
 .secMenu li a{
     text-decoration: none;
     color: #ffffff;
+    /* font: normal normal bold 20px/24px Noto Sans; */
+    padding-right: 48px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    display: block;
+    text-align: center;
 }
-.secMenu h2 a{
+.secMenu li a:hover{
+    border-bottom: 1px solid blue;
+}
+.secHeader h2 {
     text-indent: 101%;
 	white-space: nowrap;
     overflow: hidden;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
     background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/icon-search.svg');
+
 }
