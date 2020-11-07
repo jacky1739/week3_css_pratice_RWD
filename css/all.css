@@ -55,7 +55,7 @@ table {
     padding: 30px 80px;
     margin-bottom: 24px;
     background-color: #AA0601;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .header h1{
     background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png');
@@ -77,6 +77,7 @@ table {
     justify-content: center;
     align-items: center;
     margin-right: 28px;
+    font: normal normal normal 20px/30px Noto Sans;
 }
 
 
@@ -90,25 +91,18 @@ table {
 }
 .secMenu{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.secMenu li{
-    display: flex;
-}
+
 .secMenu li a{
     text-decoration: none;
     color: #ffffff;
-    /* font: normal normal bold 20px/24px Noto Sans; */
+    font: normal normal bold 20px/24px Noto Sans;
     padding-right: 48px;
-    /* border: 1px solid black; */
     font-size: 20px;
-    display: block;
-    text-align: center;
 }
-.secMenu li a:hover{
+/* .secMenu li a:hover{
     border-bottom: 1px solid blue;
-}
+} */
 .secHeader h2 {
     text-indent: 101%;
 	white-space: nowrap;
@@ -126,6 +120,7 @@ table {
     /* border: 1px solid black; */
     margin: 0 auto;
     margin-top: 82px;
+    margin-bottom: 156px;
 }
 
 
@@ -165,4 +160,106 @@ table {
     /* margin-left: 24px; */
     /* border: 1px solid black; */
     float: right;
+}
+
+
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages li a{
+    text-decoration: none;
+    color: #555555;
+    font: normal normal normal 19px/29px Roboto;
+    /* border-right: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555; */
+    border: 1px solid #555555;
+    padding: 10px 14px;
+}
+.pages li a:hover{
+    background-color: black;
+    color: #ffffff;
+    transition-duration: 500ms;
+}
+
+
+.footer{
+    background-color: #AA0601;
+    /* display: column; */
+    flex-direction: row;
+}
+.first-line{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal normal 16px/24px Noto Sans;
+}
+.container li a{
+    text-decoration: none;
+    /* font: normal normal normal 16px/24px Noto Sans; */
+    font-size: 16px;
+    margin-right: 32px;
+    color: #ffffff;
+    align-items: center;
+    display: block;
+    margin-top: 36px;
+    font-family: 微軟正黑體;
+}
+
+.contactMe{
+    box-sizing: border-box;
+    display: block;
+    width: 1070px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.contactMe li{
+    display: flex;
+}
+.contactMe li p{
+    color: #ffffff;
+    font-size: 36px;
+    font: normal normal normal 36px/54px Roboto;
+    margin-left: 16px;
+}
+
+
+.footer-polocy{
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 30px;
+    /* margin-top: 20px; */
+}
+.footer-polocy ul{
+    display: flex;
+    text-decoration: none;
+}
+.footer-polocy ul li{
+    margin-right: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.footer-polocy ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font: normal normal normal 14px/21px Noto Sans;
+}
+.footer-logo{
+    background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png');
+    text-indent: 101%;
+	white-space: nowrap;
+    overflow: hidden;
+    width: 80px;
+    height: 48.57px;
+    background-size: cover;
 }
